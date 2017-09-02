@@ -1,0 +1,55 @@
+body {
+	font: 600 16px/18px 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.top-bar {
+	width: 75%;
+	margin: auto;
+}
+
+.top-bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+}
+
+.top-bar ul li {
+	float: left;
+}
+
+.top-bar ul li a {
+	display: block;
+	color: #666;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.top-bar ul li a:hover:not(.active) {
+	background-color: #ddd;
+}
+
+.instant-gallery {
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	width: 20vw;
+}
+
+.picture {
+	margin-top: 30px;
+	width: 25vw;
+}
+
+.picture img {
+	width: 25vw;
+	margin: auto;
+}

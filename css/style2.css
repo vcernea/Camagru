@@ -1,0 +1,125 @@
+body{ 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-image: url("https://lh6.googleusercontent.com/EoxhpI7qXDLeyvTMzQBCvpAKifyceB2TJlOfMF7R0GXzg6OmNSlW4IhNHQPuPB4jF0tQq0Lq-lGjnfc=w1595-h983-rw");
+	background-color:#c8c8c8;
+	background-repeat: no-repeat;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+
+a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #000;
+	font-weight: normal;
+}
+
+a:hover {
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+	font-weight: normal;
+}
+
+.top-bar {
+	width: 75%;
+	margin: auto;
+}
+
+.top-bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+}
+
+.top-bar ul li {
+	float: left;
+}
+
+.top-bar ul li a {
+	display: block;
+	color: #666;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.top-bar ul li a:hover:not(.active) {
+	background-color: #ddd;
+}
+
+.LogBox {
+	width: 360px;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.ourform {
+	/* background-color: rgb(139, 146, 158); */
+	background-color: rgba(255, 255, 269, 0.95);
+	position: relative;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.reg-log {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size: 48px;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.input {
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background: rgba(67, 134, 242, 0.4);
+	width:100%;
+	color:#fff;
+	font-size: 12px;
+	display:block;
+}
+
+.input:focus {
+	outline:none;
+	font-size: 12px;
+}
+
+.pas-log {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.tab {
+	padding:13px 20px;
+	border-radius:25px;
+	background: rgb(249, 249, 249);
+	text-transform:uppercase;
+	width:100%;
+	color:#000;
+	display:block;
+	font-size: 20px;
+}
+
+.tab:hover {
+	background: rgba(67, 134, 242, 0.4);
+	outline: none;
+}
+
+.tab:focus {
+	background: rgba(67, 134, 242, 0.4);
+	outline: none;
+}
